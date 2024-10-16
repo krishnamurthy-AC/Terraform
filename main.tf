@@ -36,7 +36,7 @@ resource "aws_iam_role_policy_attachment" "example_attachment" {
 }
 
 resource "aws_iam_instance_profile" "example_profile" {
-  name = "example_profile"
+  name = "ACKM"
   role = aws_iam_role.example_role.name
 }
 
